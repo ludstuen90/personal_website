@@ -1,0 +1,30 @@
+
+.header {
+background-color: #262626;
+/* height: 100px; */
+}
+
+.header h1 {
+  margin: 40px 0 0 20px;
+  color: white;
+}
+
+.header h4 {
+  margin: 0 0 40px 20px;
+  font-size: 14px;
+  color: grey;
+}
+
+.dropdown button {
+
+  color: grey;
+}
+
+.btn-secondary {
+background-color: #262626;
+border-color: #262626;
+}
+
+.btn-group {
+  margin-top: 50px;
+}
