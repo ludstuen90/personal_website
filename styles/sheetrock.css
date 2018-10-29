@@ -28,3 +28,27 @@ border-color: #262626;
 .btn-group {
   margin-top: 50px;
 }
+
+.home-banner {
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-banner-img {
+  width: 100%;
+
+
+}
+.jumbotron {
+  background-image: url(../images/me.jpg);
+}
+
+h1, h2, h3, h4, p  {
+font-family: "Carrois Gothic", sans-serif;
+}
+
+.warm{
+  color: #ea5449;
+}
