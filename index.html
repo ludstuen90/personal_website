@@ -4,37 +4,54 @@
 <head>
   <meta charset="utf-8">
   <title>Home Page</title>
+
+  <!-- NAVBAR AND SCRIPTS -->
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
   <link rel="stylesheet" href="styles/sheetrock.css">
-
-
 </head>
 
 <body>
   <div class="container ">
     <div class="row header">
-      <div class="col-md-8">
-        <h1>Lukas Udstuen</h1>
-        <h4>Software Automation Engineer | Buenos Aires, Argentina</h4>
+      <div class="col-md-8"><a style="text-decoration: none;" href="/">
+          <h1>Lukas Udstuen</h1>
+          <h4>Software Automation Engineer | Buenos Aires, Argentina</h4>
+        </a>
       </div>
+
 
       <div class="col-md-4">
         <div class="btn-group">
 
-          <div class="dropdown">
+          <div class="dropdown multi-level">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Portfolio
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Software</a>
-              <a class="dropdown-item" href="#">Journalism</a>
+              <h6 class="dropdown-header"><b>Software</b></h6>
+              <a class="dropdown-item" href="#">Country Financial</a>
+              <a class="dropdown-item" href="#">Prime Digital Academy</a>
+              <h6 class="dropdown-header"><b>Journalism</b></h6>
+              <a class="dropdown-item" href="#">KBIA-FM (NPR Affiliate)</a>
+              <a class="dropdown-item" href="#">President Obama’s Second Inauguration
+              </a>
+              <a class="dropdown-item" href="#">Foro de Periodismo Argentino
+              </a>
+              <a class="dropdown-item" href="#">All Things Considered (Minnesota Public Radio News)
+              </a>
+              <a class="dropdown-item" href="#">KOMU-TV8 (NBC Affiliate)</a>
+              <a class="dropdown-item" href="maneater.html">The Maneater</a>
             </div>
           </div>
+
 
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -52,39 +69,27 @@
             </button>
           </div>
         </div>
-
       </div>
-
     </div>
+
+    <!-- END NAVBAR AND SCRIPTS  -->
+
 
     <div class="row">
       <div class="col-md-12">
         <br>
         <div class="home-banner">
           <img class="home-banner-img" src="images/me.jpg">
-          <h1 class="warm">Hello, there.</h1>
+          <h1 class="warm bump">Hello, there.</h1>
 
           <p>I’m a software developer schooled in the ways of DevOps and have been formally trained as a journalist.</p>
 
           <p>I speak English and Spanish and am available for freelance work.</p>
 
-          <p>You’re welcome to contact me here.</p>
+          <p>You’re welcome to <a href=mailto:lukas.udstuen@gmail.com?subject=Website Inquiry">contact me here</a>.</p>
         </div>
       </div>
     </div>
-
-
-
-    <!-- <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-
-
-        <h1 class="display-4">Welcome!</h1><br><br><br><br><br><br><br><br><br><br><br>
-        <b<br><br><br><br><br><br><br><br><br>
-      </div>
-    </div> -->
-
-
 
 </body>
 

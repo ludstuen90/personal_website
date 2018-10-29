@@ -45,10 +45,26 @@ border-color: #262626;
   background-image: url(../images/me.jpg);
 }
 
-h1, h2, h3, h4, p  {
-font-family: "Carrois Gothic", sans-serif;
+h1, h2, h3, h4  {
+font-family: "Oswald", sans-serif;
 }
+
+p, a {
+font-family: "Lora", sans-serif;
+}
+
 
 .warm{
   color: #ea5449;
+}
+a {
+  color: #ea5449;
+}
+
+.bump {
+  margin-top: 15px;
+}
+
+.minimal {
+text-decoration: none;
 }
